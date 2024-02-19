@@ -1,0 +1,56 @@
+Write a Definition Statement
+***I want to build an application that logs preventative maintenance for vehicles.
+
+Define your Audience
+Who is using my application
+***The audience for my applications is for anyone/everyone that owns a vehicle.
+
+Outline the content of the application
+What do I want on each page? 
+***(text / pics / images / navigation/maintenance log)
+
+What do I want the functionality of each page to be? 
+***5 pages with the recommended maintenance (drop down)
+
+What is the purpose of my application? 
+***To help vehicle owners with maintaining the life of their vehicles with preventative maintenance.
+
+What business problem or real world problem am I going to be solving?
+***I will be solving high repair costs for vehicle owners, nickel and dime costs, It will be an organized user friendly website/API.
+
+Define the attributes of your website
+Color Palette - 
+***ffb703 orange
+
+Images -
+***saved in image file
+Fonts - 
+***saved in font file
+Logos-
+***saved in image file
+Navigation- 
+***saved in Mural
+
+Create and provide link to User Story Map in Mural 
+
+[https://app.mural.co/t/sean1648/m/sean1648/1706313916965/54284679bf44cc4a425bb20ea833470671617f63?sender=u56e60a06597342b66e712516]
+
+Research the following: 
+List Applications Researched: (links to websites / applications) 
+***I Liked the navigation in this website 
+
+[https://coolors.co/palettes/trending] 
+
+List what you like about each site: 
+***I liked the functioning of each site
+
+List what you do not like about each site:
+***There is not anything I did not like, unfortunately.
+
+How my application will be different:
+***My application will be from an amateur skillset.
+
+Create wireframes and provide link for each page (minimum of 4-5 pages) including Home, About Me, Contact Us and 1-2 other pages demonstrating the specific functionality of your capstone's purpose
+Create and provide link to User Flow Diagram
+Create and provide link to SWOT Analysis 
+
