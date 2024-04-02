@@ -1,9 +1,8 @@
 export default [
+  { title: "Welcome", text: "Welcome" },
   { title: "Home", text: "Home" },
   { title: "Bio", text: "Bio" },
-  { title: "Order", text: "Submit a Pizza Order" },
-  { title: "Pizza", text: "See all the Pizzas" }
-  { title: "Pizza", text: "See all the Pizzas" }
-  { title: "Pizza", text: "See all the Pizzas" }
-  { title: "Pizza", text: "See all the Pizzas" }
+  { title: "Maintenance", text: "Maintenance" },
+  { title: "Routine", text: "Routine" },
+  { title: "Gallery", text: "Gallery" }
 ];
