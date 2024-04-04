@@ -4,5 +4,6 @@ export default [
   { title: "Bio", text: "Bio" },
   { title: "Maintenance", text: "Maintenance" },
   { title: "Routine", text: "Routine" },
-  { title: "Gallery", text: "Gallery" }
+  // { title: "Gallery", text: "Gallery" },
+  { title: "Help", text: "Help" }
 ];

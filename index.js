@@ -14,13 +14,30 @@ function render(state = store.Home) {
       ${Footer()}
     `;
   router.updatePageLinks();
-  afterRender();
+  afterRender(state);
 }
-function afterRender() {
+function afterRender(state) {
   // add menu toggle to bars icon in nav bar
   document.querySelector(".fa-bars").addEventListener("click", () => {
     document.querySelector("nav > ul").classList.toggle("hidden--mobile");
   });
+  if (state.view === "Help") {
+    document
+      .getElementById("search-button")
+      .addEventListener("click", event => {
+        event.preventDefault();
+        const vin = document.getElementById("vin").value;
+        axios
+          .get(
+            `https://vpic.nhtsa.dot.gov/api/vehicles/decodevinvaluesextended/${vin}?format=json`
+          )
+          .then(response => {
+            console.log(response);
+            store.Help.vehicle = response.data.Results[0];
+            router.navigate("/Help");
+          });
+      });
+  }
 }
 
 //PLEASE DO THIS MESSAGE SEAN MUST BE DONE ASAP
@@ -55,6 +72,7 @@ router.hooks({
             done();
           });
         break;
+
       default:
         done();
     }
